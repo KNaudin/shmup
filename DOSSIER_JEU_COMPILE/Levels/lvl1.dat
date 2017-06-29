@@ -1,0 +1,28 @@
+// Level 1
+// Duration has to come first else no object will be loaded into the game
+// Set level duration on 3350 frames
+// 60 frames equal to 1 second of time
+duration 3350
+// Player start position is 50x 250y
+playerStartPos 50 250
+playerStartShip xwing
+background deathstar
+music level1
+// Loading health modifier at the 90th frame and at position 800x 300y
+modifier health 90 800 300
+// Loading ennemy TIE at the 180th frame and position 800x 300y
+ennemy TIE 180 800 300
+ennemy TIE 180 800 376
+ennemy TIE 180 800 452
+ennemy TIE 210 800 500
+ennemy TIE 210 800 424
+ennemy TIE 240 800 500
+ennemy TIE 240 800 424
+ennemy TIE 360 800 0
+ennemy TIE 360 800 76
+ennemy TIE 360 800 152
+ennemy TIE 360 800 228
+ennemy TIE 360 800 304
+ennemy TIE 360 800 380
+ennemy TIE 360 800 456
+ennemy TIE 360 800 532
